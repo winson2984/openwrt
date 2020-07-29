@@ -91,7 +91,7 @@ jobs:
           # 编译HC5671固件:
            cat >> .config <<EOF
            CONFIG_TARGET_ramips=y
-           CONFIG_TARGET_x86_64=y
+           CONFIG_TARGET_ramips_mt7620=y
            CONFIG_TARGET_ramips_mt7620_DEVICE_hiwifi_hc5761=y
            EOF
           # 固件压缩:
